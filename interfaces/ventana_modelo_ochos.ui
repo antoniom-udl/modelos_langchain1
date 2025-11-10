@@ -366,42 +366,42 @@ QToolTip {
          <item>
           <widget class="QPushButton" name="boton_3">
            <property name="text">
-            <string>3.simplesequestian</string>
+            <string>3.simplesequientialchain</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="boton_4">
            <property name="text">
-            <string>4</string>
+            <string>4.parseo</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="boton_5">
            <property name="text">
-            <string>5</string>
+            <string>5.variosparseos</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="boton_6">
            <property name="text">
-            <string>6</string>
+            <string>6.memoria</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="boton_7">
            <property name="text">
-            <string>7</string>
+            <string>7.persistencia</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="boton_8">
            <property name="text">
-            <string>8</string>
+            <string>8.memoria</string>
            </property>
           </widget>
          </item>
