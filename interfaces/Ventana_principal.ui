@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*
+ * TEMA AZUL MARINO OSCURO Y ACENTO SUAVE
+ * Aplicar en la propiedad 'styleSheet' del QMainWindow
+ */
+
+/* Fondo general (Azul marino casi negro) */
+QMainWindow {
+    background-color: #1C2533;
+}
+
+/* QMenuBar: La barra de menú principal */
+QMenuBar {
+    background-color: #1C2533; /* Base azul marino oscuro */
+    color: #D0D0D0; /* Texto gris claro */
+    border-bottom: 1px solid #3A4F6D; /* Borde con el azul de acento */
+    padding: 4px;
+    spacing: 10px;
+}
+
+/* QMenuBar::item: Cada elemento en la barra (Archivo, Editar...) */
+QMenuBar::item {
+    background-color: transparent;
+    color: #D0D0D0;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+/* Estado al pasar el mouse o seleccionar (azul de acento) */
+QMenuBar::item:hover, QMenuBar::item:selected {
+    background-color: #3A4F6D; /* Azul grisáceo de acento */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* QMenu: El menú desplegable */
+QMenu {
+    background-color: #232E40; /* Un azul un poco más claro que el fondo */
+    color: #D0D0D0;
+    border: 1px solid #3A4F6D; /* Borde de acento */
+    padding: 5px;
+}
+
+/* QAction: (Estilizado como QMenu::item) Los elementos dentro del menú */
+QMenu::item {
+    padding: 8px 25px 8px 20px;
+    margin: 2px 4px;
+    border-radius: 4px;
+    color: #D0D0D0;
+}
+
+/* QAction: Estado al pasar el mouse o seleccionar (azul de acento) */
+QMenu::item:selected, QMenu::item:hover {
+    background-color: #3A4F6D; /* Azul grisáceo de acento */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* QAction: Deshabilitado */
+QMenu::item:disabled {
+    color: #606060; /* Texto gris más oscuro */
+    background-color: transparent;
+}
+
+/* Separadores dentro del QMenu */
+QMenu::separator {
+    height: 1px;
+    background-color: #3A4F6D; /* Línea de acento */
+    margin: 5px 0px;
+}
+
+/* QStatusBar: La barra de estado inferior */
+QStatusBar {
+    background-color: #1C2533; /* Base azul marino oscuro */
+    color: #D0D0D0;
+    border-top: 1px solid #3A4F6D; /* Borde superior de acento */
+    padding: 4px;
+}
+
+/* Items dentro de la barra de estado */
+QStatusBar::item {
+    border: none;
+    padding: 0 5px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuModelos">
+    <property name="title">
+     <string>Modelos</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionBasico"/>
+    <addaction name="separator"/>
+    <addaction name="actionLangchain"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuModelos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBasico">
+   <property name="text">
+    <string>Básicos</string>
+   </property>
+  </action>
+  <action name="actionLangchain">
+   <property name="text">
+    <string>LangChain</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

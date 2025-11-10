@@ -1,0 +1,28 @@
+{
+  "history": [
+    {
+      "type": "human",
+      "content": "Hola, soy Alejandro."
+    },
+    {
+      "type": "ai",
+      "content": "¡Hola, Alejandro! Es un placer conocerte. ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "type": "human",
+      "content": "¿Recuerdas cómo me llamo?"
+    },
+    {
+      "type": "ai",
+      "content": "Sí, claro. Tu nombre es Alejandro."
+    },
+    {
+      "type": "human",
+      "content": "¿Qué hablamos antes?"
+    },
+    {
+      "type": "ai",
+      "content": "Claro, lo recuerdo perfectamente.\n\nHasta ahora, nuestra conversación ha sido la siguiente:\n\n1.  Me saludaste y me dijiste que te llamabas Alejandro.\n2.  Yo te saludé de vuelta y te pregunté en qué podía ayudarte.\n3.  Después, me preguntaste si recordaba tu nombre.\n4.  Y te confirmé que sí, que tu nombre es Alejandro.\n\n¡Eso es todo lo que hemos hablado hasta ahora!"
+    }
+  ]
+}
